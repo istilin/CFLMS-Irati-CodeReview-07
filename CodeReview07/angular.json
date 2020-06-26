@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CodeReview07"
+    }
+  },
+  "defaultProject": "CodeReview07",
+  "cli": {
+    "analytics": "dbfab8f3-9c50-417a-a9fc-173cdf122f4a"
+  }
 }

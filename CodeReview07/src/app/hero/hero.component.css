@@ -1,0 +1,11 @@
+div{
+	background-image: url("/assets/img/hero-img.webp");
+	background-size: cover;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 4vw;
+	color: white;
+	padding: 22%;
+	text-shadow: 0.15vw 0.15vw black;
+}
