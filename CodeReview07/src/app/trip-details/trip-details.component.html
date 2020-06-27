@@ -1,5 +1,7 @@
 <div class = "container">
-	<h2 class = "mt-4">Trip Details</h2>
+	<h2 class = "mt-4">
+		Trip Details
+	</h2>
 	<div class = "row row-cols-1 m-3">
 		<div class="col mb-4 card-deck mx-auto mt-1" *ngIf="trip">
 			<div class = "card m-0">
@@ -20,7 +22,9 @@
 					<p>
 						Price: {{ trip.price | currency: "€" }}
 					</p>
-					<button (click)="addToCart(trip)">Book this trip!</button>
+					<button (click)="addToCart(trip)">
+						Book this trip!
+					</button>
 				</div>
 			</div>
 		</div>

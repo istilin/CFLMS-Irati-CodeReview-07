@@ -4,6 +4,7 @@ span{
 	font-family: 'Lobster', cursive;
 	font-size: 2vw;
 }
+
 h2{
 	font-size: 1.7vw;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -14,6 +15,7 @@ p{
 	font-size: 1.4vw;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+
 .container{
 	margin-top: 5%;
 	margin-bottom: 2%;

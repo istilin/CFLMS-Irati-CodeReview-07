@@ -1,14 +1,22 @@
 *{
 	font-family: 'Roboto Condensed', sans-serif;
 }
+
 .container{
 	background-color: #F08080;
 	margin: 3% auto;
 	border-radius: 2vw;
 }
+
 .card{
 	background-color: #90EE90;
 }
-h2, h4, h5, p, h3{
+
+h2, h4, h5, h3{
 	padding: 1%;
+}
+
+p{
+	margin: 0;
+	padding: 0 0 0 1%;
 }

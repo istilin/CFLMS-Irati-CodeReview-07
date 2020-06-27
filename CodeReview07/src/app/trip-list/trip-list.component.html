@@ -1,5 +1,7 @@
 <div class = "container">
-	<h2 class = "h2">Trips and Routes</h2>
+	<h2 class = "h2">
+		Trips and Routes
+	</h2>
 	<div class = "row m-3" >
 		<div class="col col-12 col-md-6 col-lg-4 col-xl-4 mb-4 card-deck mx-auto mt-4" *ngFor="let trip of trips; index as tripId">
 			<div class = "card m-0">
@@ -19,7 +21,9 @@
 				<p>
 					Price: {{ trip.price | currency: "€" }}
 				</p>
-				<button [routerLink]="['/trips', tripId]"> Learn more</button>
+				<button [routerLink]="['/trips', tripId]"> 
+					Learn more
+				</button>
 			</div>
 		</div>
 	</div>

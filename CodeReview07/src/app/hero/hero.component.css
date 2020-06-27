@@ -3,12 +3,14 @@ div{
 	background-image: url("/assets/img/hero-img.jpg");
 	background-size: cover;
 }
+
 h1{
 	font-family: 'Lobster', cursive;
 	font-size: 4vw;
 	color: white;
 	text-shadow: 0.15vw 0.15vw black;
 }
+
 h4{
 	font-family: 'Lobster', cursive;
 	font-size: 2vw;
