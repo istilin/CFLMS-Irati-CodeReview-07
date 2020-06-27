@@ -1,0 +1,25 @@
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.one{
+	background-color: #F08080;
+	margin: 5% auto;
+	border-radius: 2vw;
+}
+.two{
+	background-color: #90EE90;
+	border-radius: 2vw;
+}
+
+img{
+	width: 100%;
+	margin-bottom: 2%;
+}
+h1{
+	padding: 1%;
+}
+
+h2{
+	padding: 1%;
+	font-style: italic;
+}

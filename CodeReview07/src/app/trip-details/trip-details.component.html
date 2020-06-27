@@ -1,0 +1,28 @@
+<div class = "container">
+	<h2 class = "mt-4">Trip Details</h2>
+	<div class = "row row-cols-1 m-3">
+		<div class="col mb-4 card-deck mx-auto mt-1" *ngIf="trip">
+			<div class = "card m-0">
+				<img class = "card-img-top d-none d-md-block" src= '{{ trip.src2 }}'>
+				<div class = "card-body">
+					<h2 class = "h2">
+				     	{{ trip.destination }}
+					</h2>
+					<h5 class = "h5">
+						{{ trip.description }}
+					</h5>
+					<p>
+						Start: {{ trip.start }}
+					</p>
+					<p>
+						Duration: {{ trip.duration }}
+					</p>
+					<p>
+						Price: {{ trip.price | currency: "€" }}
+					</p>
+					<button (click)="addToCart(trip)">Book this trip!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

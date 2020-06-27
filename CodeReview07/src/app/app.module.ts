@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { HomeComponent } from './home/home.component';
+import { TripListComponent } from './trip-list/trip-list.component';
+import { TripDetailsComponent } from './trip-details/trip-details.component';
+import { CartComponent } from './cart/cart.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeroComponent,
-    HomeComponent
+    HomeComponent,
+    TripListComponent,
+    TripDetailsComponent,
+    CartComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,30 @@
+<div class = "container">
+	<h2 class = "h2">Trips and Routes</h2>
+	<div class = "row m-3" >
+		<div class="col col-12 col-md-6 col-lg-4 col-xl-4 mb-4 card-deck mx-auto mt-4" *ngFor="let trip of trips; index as tripId">
+			<div class = "card m-0">
+				<img class = "card-img-top" src= '{{ trip.src1 }}'>
+				<div class = "card-body">
+				<h3 class = "h3">
+			 		<a >
+			     		{{ trip.destination }}
+			   		</a>  
+				</h3>
+				<p>
+					Start: {{ trip.start }}
+				</p>
+				<p>
+					Duration: {{ trip.duration }}
+				</p>
+				<p>
+					Price: {{ trip.price | currency: "€" }}
+				</p>
+				<button [routerLink]="['/trips', tripId]"> Learn more</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+          
+            
+           

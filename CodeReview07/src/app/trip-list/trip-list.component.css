@@ -1,0 +1,22 @@
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+	background-color: #F08080;
+	border-radius: 2vw;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	padding: 2% 4%;
+}
+.card{
+	background-color: #90EE90;
+}
+button{
+	background-color: #006400;
+	border: 0;
+	color: white;
+	border-radius: 0.5vw;
+}
+h2{
+	padding: 1%;
+}

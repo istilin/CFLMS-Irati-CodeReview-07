@@ -17,4 +17,12 @@ p{
 .container{
 	margin-top: 5%;
 	margin-bottom: 2%;
+	background-color: #F08080;
+	padding: 2% 4%;
+	border-radius: 2vw;
+}
+
+.col-4{
+	background-color: #90EE90;
+	border-radius: 2vw;
 }
